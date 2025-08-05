@@ -10,11 +10,11 @@ class TablaMultiplicar:
 
 def main():
     try:
+        print ("programa realizado por Aprendiz ADSO")
         numero = int(input("ingrese un número para mostrar su tabla de multiplicar: "))
         tabla = TablaMultiplicar(numero)
         tabla.imprimir_tabla()
-    except ValueError:
-        print ("programa realizado por Aprendiz ADSO")
+    except ValueError:        
         print("Por favor, ingrese un número válido.")
 
 if __name__ == "__main__":
