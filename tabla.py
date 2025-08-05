@@ -10,7 +10,7 @@ class TablaMultiplicar:
 
 def main():
     try:
-        numero = int(input("Ingrese un número para mostrar su tabla de multiplicar: "))
+        numero = int(input("**--ingrese un número para mostrar su tabla de multiplicar: "))
         tabla = TablaMultiplicar(numero)
         tabla.imprimir_tabla()
     except ValueError:
